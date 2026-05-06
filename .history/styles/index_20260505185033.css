@@ -1,3 +1,18 @@
+.header {
+  padding: 1rem;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  display: none;
+  list-style: none;
+}
+.logo {
+  font-weight: 700;
+}
 .hero {
   text-align: center;
   padding: 4rem 1rem;
@@ -5,13 +20,25 @@
 .hero h2 {
   font-size: 2rem;
 }
+.hero p {
+  margin: 1rem 0;
+  color: #94a3b8;
+}
+.skills {
+  list-style: none;
+}
+.skills li {
+  margin: 0.5rem 0;
+}
+.projects {
+  display: grid;
+  gap: 1rem;
+}
 .card {
-  background: #3f4957;
+  background: #1e293b;
   padding: 2rem;
   border-radius: 10px;
   transition: 0.3s;
-  align-items: center;
-  justify-content: center;
 }
 .card:hover {
   transform: translateY(-5px);
@@ -21,7 +48,7 @@
   text-align: center;
   padding: 1rem;
   background: #020617;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 @media (min-width: 768px) {
   .nav-links {
@@ -44,12 +71,5 @@
 
   .hero {
     padding: 6rem 1rem;
-  }
-}
-@media (max-width: 600px) {
-  .profile {
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
   }
 }
