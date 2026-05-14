@@ -1,0 +1,45 @@
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+.hero h2 {
+  font-size: 2rem;
+}
+.card:hover {
+  transform: translateY(-5px);
+  background: #47648d;
+}
+.btn {
+  display: inline-block;
+  background: #38bdf8;
+  color: black;
+  padding: 0.7rem 1.5rem;
+  border-radius: 999px;
+  transition: 0.3s;
+}
+.btn:hover {
+  transform: scale(1.25);
+  background: #0ea5e9;
+}
+@media (min-width: 768px) {
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .hero h2 {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .hero {
+    padding: 6rem 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .profile {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}

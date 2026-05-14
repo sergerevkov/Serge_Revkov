@@ -1,0 +1,55 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  line-height: 1;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.section {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: #020617;
+  margin-top: 1rem;
+}
+.card {
+  background: #3f4957;
+  padding: 2rem;
+  border-radius: 10px;
+  transition: 0.3s;
+  align-items: center;
+  justify-content: center;
+}
+.nav {
+  background-color: #38bdf8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.nav-links {
+  display: none;
+  list-style: none;
+}
+.skills li {
+  margin: 0.5rem 0;
+  list-style: none;
+  text-align: center;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
