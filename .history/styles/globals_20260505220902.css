@@ -8,23 +8,21 @@ a {
   text-decoration: none;
   color: white;
 }
+.btn {
+  display: inline-block;
+  background: #38bdf8;
+  color: black;
+  padding: 0.7rem 1.5rem;
+  border-radius: 999px;
+  transition: 0.3s;
+}
+.btn:hover {
+  transform: scale(1.05);
+  background: #0ea5e9;
+}
 .section {
   padding: 3rem 1rem;
   text-align: center;
-}
-.footer {
-  text-align: center;
-  padding: 1rem;
-  background: #020617;
-  margin-top: 1rem;
-}
-.card {
-  background: #3f4957;
-  padding: 2rem;
-  border-radius: 0.625rem;
-  transition: 0.3s;
-  align-items: center;
-  justify-content: center;
 }
 .nav {
   background-color: #38bdf8;
@@ -48,8 +46,9 @@ a {
   gap: 1rem;
 }
 .profile-pic {
-  width: 3.75rem;
-  height: 3.75rem;
-  border-radius: 50%;
-  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* makes it round */
+  object-fit: cover; /* prevents stretching */
+  border: 2px solid var(--accent);
 }

@@ -5,21 +5,23 @@
 .hero h2 {
   font-size: 2rem;
 }
-.card:hover {
-  transform: translateY(-0.3rem);
-  background: #47648d;
-}
-.btn {
-  display: inline-block;
-  background: #38bdf8;
-  color: black;
-  padding: 0.7rem 1.5rem;
-  border-radius: 62.44rem;
+.card {
+  background: #3f4957;
+  padding: 2rem;
+  border-radius: 10px;
   transition: 0.3s;
+  align-items: center;
+  justify-content: center;
 }
-.btn:hover {
-  transform: scale(1.25);
-  background: #0ea5e9;
+.card:hover {
+  transform: translateY(-5px);
+  background: #334155;
+}
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: #020617;
+  margin-top: 1rem;
 }
 @media (min-width: 768px) {
   .nav-links {
@@ -30,8 +32,16 @@
   .hero h2 {
     font-size: 2.5rem;
   }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media (min-width: 1024px) {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   .hero {
     padding: 6rem 1rem;
   }

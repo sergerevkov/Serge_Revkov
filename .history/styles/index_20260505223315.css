@@ -6,7 +6,7 @@
   font-size: 2rem;
 }
 .card:hover {
-  transform: translateY(-0.3rem);
+  transform: translateY(-5px);
   background: #47648d;
 }
 .btn {
@@ -14,7 +14,7 @@
   background: #38bdf8;
   color: black;
   padding: 0.7rem 1.5rem;
-  border-radius: 62.44rem;
+  border-radius: 999px;
   transition: 0.3s;
 }
 .btn:hover {

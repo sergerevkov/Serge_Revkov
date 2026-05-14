@@ -21,7 +21,7 @@ a {
 .card {
   background: #3f4957;
   padding: 2rem;
-  border-radius: 0.625rem;
+  border-radius: 10px;
   transition: 0.3s;
   align-items: center;
   justify-content: center;
@@ -48,8 +48,8 @@ a {
   gap: 1rem;
 }
 .profile-pic {
-  width: 3.75rem;
-  height: 3.75rem;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   object-fit: cover;
 }
